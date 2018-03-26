@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {BrowserRouter as Router, Route, Link, Redirect,Switch} from 'react-router-dom'
+import {HashRouter as Router, Route, Link, Redirect,Switch} from 'react-router-dom'
 
 // import 'font-awesome/css/font-awesome.min.css';
 // import './index.css';
@@ -58,8 +58,8 @@ class App extends React.Component {
         <div className="container">
           <h3>hello world <i className="fa fa-apple"></i></h3>
           
-          <a href="/" style={{marginRight:'5px'}}>home</a>
-          <a href="/school">school</a>
+          <a href="#/" style={{marginRight:'5px'}}>home</a>
+          <a href="#/school">school</a>
           <Router>
 
              <Switch>
