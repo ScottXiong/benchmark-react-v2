@@ -95,6 +95,9 @@ module.exports = {
   ],
   devServer: {
      port:8989,
-     contentBase: './dist/'
+     // contentBase: './dist/'
+     historyApiFallback:{  //404或者不存在的路由都会指向这个页面
+      index:'/dist/index.html'
+     }
    }
 };
