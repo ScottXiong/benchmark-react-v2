@@ -10,8 +10,7 @@ import {HashRouter as Router, Route, Link, Redirect,Switch} from 'react-router-d
 
 //import component
 
-import Home from 'page/home/index.jsx'
-import School from 'page/school/index.jsx'
+import Layout from 'page/layout/index.jsx'
 //life circle
 
 class App extends React.Component {
@@ -55,19 +54,15 @@ class App extends React.Component {
    render(){
     console.log('render')
     return (
-        <div className="container">
+        <div >
           <h3>hello world <i className="fa fa-apple"></i></h3>
           
-          <a href="#/" style={{marginRight:'5px'}}>home</a>
-          <a href="#/school">school</a>
           <Router>
-
+           <Layout>
              <Switch>
-               <Route exact path='/' component={Home}/>
-               <Route path='/school' component={School}/>
-               <Redirect from='*' to="/"/>
+               
              </Switch>
-
+           </Layout>
           </Router>
 
 
