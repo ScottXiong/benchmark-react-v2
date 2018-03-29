@@ -11,7 +11,7 @@ class NavTop extends React.Component{
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand" href="index.html"><b>In</b>sight</a>
+                <a className="navbar-brand" href="index.html"><b>BENCH</b>MARK</a>
             </div>
 
             <ul className="nav navbar-top-links navbar-right">

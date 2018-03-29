@@ -98,6 +98,9 @@ module.exports = {
      // contentBase: './dist/'
      historyApiFallback:{  //404或者不存在的路由都会指向这个页面
       index:'/dist/index.html'
+     },
+     proxy:{
+      '/admin':"scottxiong.org:4321"
      }
    }
 };
