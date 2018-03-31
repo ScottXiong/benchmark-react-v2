@@ -576,6 +576,10 @@ ul.nav.nav-second-level.collapse.in {
   margin-right: 10px;
   color: #666;
 }
+/*add*/
+.nav-second-level li {
+ border-bottom: 1px solid #ccc;
+}
 /*----------------------------------------------
     UI ELEMENTS STYLES     
 ------------------------------------------------*/
